@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops.C#-002", "Loops.C#-00
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C#-002.Exceptions", "C#-002.Exceptions\C#-002.Exceptions\C#-002.Exceptions.csproj", "{0887FFBB-C4CF-445D-A9B3-B17475CA0546}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C#-002.Arrays", "C#-002.Arrays\C#-002.Arrays.csproj", "{2698D224-EC4B-41B8-989F-1B125B521A3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{0887FFBB-C4CF-445D-A9B3-B17475CA0546}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0887FFBB-C4CF-445D-A9B3-B17475CA0546}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0887FFBB-C4CF-445D-A9B3-B17475CA0546}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2698D224-EC4B-41B8-989F-1B125B521A3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2698D224-EC4B-41B8-989F-1B125B521A3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2698D224-EC4B-41B8-989F-1B125B521A3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2698D224-EC4B-41B8-989F-1B125B521A3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
