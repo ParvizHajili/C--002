@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops.C#-002", "Loops.C#-00
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C#-002.Exceptions", "C#-002.Exceptions\C#-002.Exceptions\C#-002.Exceptions.csproj", "{0887FFBB-C4CF-445D-A9B3-B17475CA0546}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C#-002.Arrays", "C#-002.Arrays\C#-002.Arrays.csproj", "{2698D224-EC4B-41B8-989F-1B125B521A3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C#-002.Arrays", "C#-002.Arrays\C#-002.Arrays.csproj", "{2698D224-EC4B-41B8-989F-1B125B521A3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayListAndStrings", "ArrayListAndStrings\ArrayListAndStrings.csproj", "{B9A7432A-4966-4DA2-8CFC-005695A22429}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{2698D224-EC4B-41B8-989F-1B125B521A3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2698D224-EC4B-41B8-989F-1B125B521A3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2698D224-EC4B-41B8-989F-1B125B521A3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9A7432A-4966-4DA2-8CFC-005695A22429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9A7432A-4966-4DA2-8CFC-005695A22429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9A7432A-4966-4DA2-8CFC-005695A22429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9A7432A-4966-4DA2-8CFC-005695A22429}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
