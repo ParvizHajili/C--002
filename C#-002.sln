@@ -21,7 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodPart2", "MethodPart2\MethodPart2.csproj", "{3871C381-9A4F-4EE2-B349-DBFC432D0FE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefAndOut", "RefAndOut\RefAndOut.csproj", "{04A547CA-E7A2-497F-B20C-442E844F2E43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefAndOut", "RefAndOut\RefAndOut.csproj", "{04A547CA-E7A2-497F-B20C-442E844F2E43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OOP", "OOP", "{F09035A1-E91C-4854-AB64-3572795B0A26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.Lesson1", "OOP\OOP.Lesson1\OOP.Lesson1.csproj", "{2CD70B4D-DDD2-40D1-A7EE-09CE008B6895}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,9 +73,16 @@ Global
 		{04A547CA-E7A2-497F-B20C-442E844F2E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04A547CA-E7A2-497F-B20C-442E844F2E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04A547CA-E7A2-497F-B20C-442E844F2E43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CD70B4D-DDD2-40D1-A7EE-09CE008B6895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CD70B4D-DDD2-40D1-A7EE-09CE008B6895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CD70B4D-DDD2-40D1-A7EE-09CE008B6895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CD70B4D-DDD2-40D1-A7EE-09CE008B6895}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2CD70B4D-DDD2-40D1-A7EE-09CE008B6895} = {F09035A1-E91C-4854-AB64-3572795B0A26}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {71B54C4B-6A22-44FF-A0FA-A54D76292220}
