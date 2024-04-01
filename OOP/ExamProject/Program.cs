@@ -36,7 +36,7 @@ namespace ExamProject
                     Console.WriteLine("VariantB daxil edin");
                     string variantB = Console.ReadLine();
 
-                    
+
                     Console.WriteLine("VariantC daxil edin");
                     string variantC = Console.ReadLine();
 
@@ -122,24 +122,27 @@ namespace ExamProject
 
         public void StartExam(List<Question> questions)
         {
-            byte count = 0;
+            byte count = 1;
+            byte trueAnswerCount = 0;
             foreach (var question in questions)
             {
-                Console.WriteLine($"Sual 1: {question.Text}");
+                Console.WriteLine($"Sual {count}: {question.Text}");
                 Console.WriteLine($"A: {question.VariantA}");
                 Console.WriteLine($"B: {question.VariantB}");
                 Console.WriteLine($"C: {question.VariantC}");
                 Console.WriteLine($"D: {question.VariantD}");
 
+                Console.WriteLine("Düzgün variantı daxil edin");
                 char questionAnswer = Convert.ToChar(Console.ReadLine().ToLower());
 
                 if (question.TrueAnswer == questionAnswer)
                 {
-                    count++;
+                    trueAnswerCount++;
                 }
 
+                count++;
             }
-            Console.WriteLine($"Siz {count} suala düzgün cavab verdiniz.");
+            Console.WriteLine($"Siz {questions.Count} {trueAnswerCount} suala düzgün cavab verdiniz.");
         }
     }
 }
